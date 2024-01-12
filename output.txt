@@ -1,0 +1,23 @@
+drwxr-xr-x    5 dockerus dockerus      4096 Jan 12 00:17 .
+drwxr-xr-x    6 dockerus dockerus      4096 Jan 11 23:32 ..
+drwx---r-x    2 dockerus dockerus      4096 Jan 12 00:17 priv
+drwxr-xr-x    2 dockerus dockerus      4096 Jan 12 00:17 pub
+drwxrwxrwx    2 dockerus dockerus      4096 Jan 12 00:08 pub2
+
+/application/data $ ls -al priv/
+total 12
+drwx---r-x    2 dockerus dockerus      4096 Jan 12 00:17 .
+drwxr-xr-x    5 dockerus dockerus      4096 Jan 12 00:17 ..
+-rw-------    1 dockerus dockerus        17 Jan 12 00:17 foo.txt
+
+/application/data $ ls -al pub/
+total 12
+drwxr-xr-x    2 dockerus dockerus      4096 Jan 12 00:17 .
+drwxr-xr-x    5 dockerus dockerus      4096 Jan 12 00:17 ..
+-rw-rw-rw-    1 dockerus dockerus        17 Jan 12 00:17 bar.txt
+
+/application/data $ ls -al pub2/
+total 12
+drwxrwxrwx    2 dockerus dockerus      4096 Jan 12 00:08 .
+drwxr-xr-x    5 dockerus dockerus      4096 Jan 12 00:17 ..
+-rw-------    1 dockerus dockerus        17 Jan 12 00:17 foo.txt
